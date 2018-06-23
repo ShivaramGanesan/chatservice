@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <display-name>myApp</display-name>
+    <description>
+        This is a simple web application with a source code organization
+        based on the recommendations of the Application Developer's Guide.
+    </description>
+
+    
+
+    <servlet>
+        <servlet-name>AddPersonToCommunity</servlet-name>
+        <servlet-class>AddPersonToCommunity</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddPersonToCommunity</servlet-name>
+        <url-pattern>/AddPersonToCommunity</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateCommunity</servlet-name>
+        <servlet-class>CreateCommunity</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreateCommunity</servlet-name>
+        <url-pattern>/CreateCommunity</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>DeleteAccount</servlet-name>
+        <servlet-class>DeleteAccount</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteAccount</servlet-name>
+        <url-pattern>/DeleteAccount</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GrpChatRoomFileWriting</servlet-name>
+        <servlet-class>GrpChatRoomFileWriting</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GrpChatRoomFileWriting</servlet-name>
+        <url-pattern>/GrpChatRoomFileWriting</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LeaveCommunity</servlet-name>
+        <servlet-class>LeaveCommunity</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LeaveCommunity</servlet-name>
+        <url-pattern>/LeaveCommunity</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginCheck</servlet-name>
+        <servlet-class>LoginCheck</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginCheck</servlet-name>
+        <url-pattern>/LoginCheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PrivateChatRoom</servlet-name>
+        <servlet-class>PrivateChatRoom</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PrivateChatRoom</servlet-name>
+        <url-pattern>/PrivateChatRoom</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SendMessage</servlet-name>
+        <servlet-class>SendMessage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SendMessage</servlet-name>
+        <url-pattern>/SendMessage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SendPrivateMessage</servlet-name>
+        <servlet-class>SendPrivateMessage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SendPrivateMessage</servlet-name>
+        <url-pattern>/SendPrivateMessage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SendToCommunity</servlet-name>
+        <servlet-class>SendToCommunity</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SendToCommunity</servlet-name>
+        <url-pattern>/SendToCommunity</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>SignUp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/SignUp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewPrivateMessages</servlet-name>
+        <servlet-class>ViewPrivateMessages</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewPrivateMessages</servlet-name>
+        <url-pattern>/ViewPrivateMessages</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewSignUpLog</servlet-name>
+        <servlet-class>ViewSignUpLog</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewSignUpLog</servlet-name>
+        <url-pattern>/ViewSignUpLog</url-pattern>
+    </servlet-mapping>
+    
+
+</web-app> 
